@@ -1,0 +1,27 @@
+@import './commons.scss';
+.SideBarMenuCardView{
+    text-align: center;
+    .profile{
+        border-radius: 50%;
+        padding: 10px;
+        box-sizing: border-box;
+        max-width: 128px;
+    }
+    .profile:hover{
+        transform: scale(1.2);
+        box-shadow: 0px 0px 1px rgb(173, 14, 14);
+    }
+    .url a{
+        text-decoration: underline;
+        color: #79a8ff;
+    }
+    .profileInfo{
+        overflow: hidden;
+        height: 80px;
+        @include transition(height);
+        &.collapsed {
+            opacity: 0;
+            height:0;
+        }
+    }
+}
