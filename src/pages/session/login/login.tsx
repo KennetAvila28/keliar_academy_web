@@ -1,12 +1,10 @@
-import React, { FC } from 'react';
-import { Form, Input, Checkbox, Button, Card } from 'antd';
-import './login.css'
 /**
  * TODO: add the rules for inputs
  *
  */
-
-import './login.css';
+import { FC } from 'react';
+import { Form, Input, Checkbox, Button, Card } from 'antd';
+import './login.css'
 import logo from 'assets/img/logo.svg'
 const login: FC = () => (
   <div className="bg">
@@ -41,7 +39,7 @@ const login: FC = () => (
                 <a className='link'>Forgot your password?</a>
               </Form.Item>
               <Form.Item>
-                <Button type='primary' htmlType='submit'>Log In</Button>
+                <Button type='primary' htmlType='submit'>Sign In</Button>
               </Form.Item>
             </Form>
           </div>
@@ -49,14 +47,12 @@ const login: FC = () => (
             <img src={logo} alt="logo" />
           </div>
         </div>
-
       </Card>
     </div>
     <div className="bg-dark">
       Do you need accout? <a className='link'>Sign Up</a>
     </div>
   </div>
-
 );
 
 

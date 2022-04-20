@@ -1,9 +1,9 @@
 // import { Routes, BrowserRouter, Route } from 'react-router-dom';
 import { FC } from 'react';
-import Login from 'pages/session/login/login';
+import Register from './pages/session/register/register';
 const App: FC = () => {
   return (
-    <Login />
+    <Register />
   )
 }
 
