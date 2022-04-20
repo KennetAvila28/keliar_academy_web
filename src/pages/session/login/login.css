@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.form-title-big {
+  font-size: 40px;
+  margin: 0;
+  color: var(--cp-color-1);
+  font-family: "Monserrate", cursive;
+}
+
+.bg {
+  background-image: var(--background-login);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.login-wrap {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px;
+  position: relative;
+}
+
+.right {
+  position: relative;
+  align-content: center;
+  margin-left: 80px;
+  width: 50%;
+}
+
+.login-half.left {
+  padding-right: 10%;
+  width: 55%;
+}
+
+.flex-grid {
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.form-title-small {
+  font-size: 1.3em;
+  font-weight: 300;
+}
+
+.link {
+  color: var(--cp-color-link);
+  text-decoration: solid 2px underline var(--cp-color-link);
+}
+
+.ant-card {
+  margin-top: 5% !important;
+  padding-left: 4em !important;
+  border-radius: 32px !important;
+}
+
+@media (min-height: 800px) {
+  .ant-card {
+    margin-top: 20% !important;
+  }
+}
+
+@media (min-height: 600px) {
+  .ant-card {
+    padding-left: 0 !important;
+    border-radius: 32px !important;
+  }
+
+  .right {
+    position: relative;
+    align-content: center;
+    margin-left: 80px;
+    width: 50%;
+  }
+
+  .form-title-big {
+    font-size: 45px;
+  }
+
+  .form-title-small {
+    font-size: 1.1em;
+  }
+
+  .bg-dark {
+    bottom: 0;
+  }
+
+
+}
+
+@media (max-width: 700px) {
+  .bg {
+    height: auto;
+  }
+
+  .form-title-big {
+    font-size: 20px;
+  }
+
+  .form-title-small {
+    font-size: 1em;
+  }
+}
+
+
+
+.bg-dark {
+  font-size: 20px;
+  display: block;
+  padding: 20px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.802);
+  bottom: 1;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
