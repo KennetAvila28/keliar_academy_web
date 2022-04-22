@@ -1,9 +1,10 @@
-@import "~antd/dist/antd.css";
+@import '~antd/dist/antd.css';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 :root {
   --background-login: url('./img/background.svg');
   --logo-wrapper: url('./img/logo.svg');
+  --landing-background: url('./img/landingBackground.jpg');
   --cp-color-link-hsl: 185 100% 40%;
   --cp-color-link: hsl(var(--cp-color-link-hsl));
   --font-family-cursive: 'Montserrat', cursive;

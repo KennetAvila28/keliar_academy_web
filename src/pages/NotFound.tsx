@@ -1,20 +1,27 @@
 // import {useNavigate} from 'react-router-dom';
-import {Result, Button} from 'antd';
-import {FC} from 'react';
+import { Button, Result } from 'antd'
+import { FC } from 'react'
 
-export const NotFound:FC =() => {
+export const NotFound: FC = () => {
   // const navigate = useNavigate();
-  const handleRedirect=()=>{
+  const handleRedirect = () => {
     // navigate("/usuarios")
-  };
+  }
   return (
     <Result
-      status="404"
-      title="404"
-      subTitle="Perdón, la página que visito no existe."
-      extra={<Button onClick={()=>{
-        handleRedirect();
-      }} type="primary">Regresar</Button>}
+      status='404'
+      title='404'
+      subTitle='Perdón, la página que visito no existe.'
+      extra={
+        <Button
+          onClick={() => {
+            handleRedirect()
+          }}
+          type='primary'
+        >
+          Regresar
+        </Button>
+      }
     />
-  );
-};
+  )
+}

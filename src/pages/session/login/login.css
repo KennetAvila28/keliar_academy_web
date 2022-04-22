@@ -1,3 +1,6 @@
+
+/* TODO: Unificar estilos que se repiten en index.css*/
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,7 +11,7 @@
   font-size: 40px;
   margin: 0;
   color: var(--cp-color-1);
-  font-family: "Monserrate", cursive;
+  font-family: 'Monserrate', cursive;
 }
 
 .bg {
@@ -92,8 +95,6 @@
   .bg-dark {
     bottom: 0;
   }
-
-
 }
 
 @media (max-width: 700px) {
@@ -109,8 +110,6 @@
     font-size: 1em;
   }
 }
-
-
 
 .bg-dark {
   font-size: 20px;

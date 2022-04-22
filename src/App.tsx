@@ -1,11 +1,7 @@
 // import { Routes, BrowserRouter, Route } from 'react-router-dom';
-import { FC } from 'react';
-import Register from './pages/session/register/register';
-const App: FC = () => {
-  return (
-    <Register />
-  )
-}
+import { FC } from 'react'
+import Home from 'pages/public/home/home';
+const App: FC = () => <Home />
 
 
-export default App;
+export default App

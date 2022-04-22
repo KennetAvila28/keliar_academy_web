@@ -4,7 +4,7 @@ env:
 extends:
   - plugin:react/recommended
   - google
-parser: '@typescript-eslint/parser'
+parser: "@typescript-eslint/parser"
 parserOptions:
   ecmaFeatures:
     jsx: true
@@ -12,13 +12,14 @@ parserOptions:
   sourceType: module
 plugins:
   - react
-  - '@typescript-eslint'
-rules: {
-  "semi":"off",
-  "react/react-in-jsx-scope":"off",
-  "object-curly-spacing":"off",
-  "max-len":off
-}
+  - "@typescript-eslint"
+rules:
+  {
+    "semi": "off",
+    "react/react-in-jsx-scope": "off",
+    "object-curly-spacing": "off",
+    "max-len": off,
+  }
 settings:
   react:
     version: detect

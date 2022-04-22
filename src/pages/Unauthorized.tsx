@@ -1,7 +1,7 @@
-import {Result} from 'antd';
-import {FC} from 'react';
+import { Result } from 'antd'
+import { FC } from 'react'
 
-export const Unauthorized:FC=() => {
+export const Unauthorized: FC = () => {
   return (
     <div className='grid_content'>
       <Result
@@ -10,5 +10,5 @@ export const Unauthorized:FC=() => {
         subTitle='Usted no esta autorizado para ver esta sección'
       />
     </div>
-  );
-};
+  )
+}
