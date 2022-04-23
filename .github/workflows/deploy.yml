@@ -1,0 +1,12 @@
+name: deploy development
+
+on:
+  push:
+    branches: [ development ]
+
+jobs:
+  deployment:
+    runs-on: ubuntu-latest
+    enviroment: staging
+      steps:
+        - name: build development
