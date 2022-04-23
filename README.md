@@ -1,5 +1,6 @@
 # Keliar Academy
 
+[![build development](https://github.com/KennetAvila28/keliar_academy_web/actions/workflows/build.yml/badge.svg?branch=development)](https://github.com/KennetAvila28/keliar_academy_web/actions/workflows/build.yml)
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
