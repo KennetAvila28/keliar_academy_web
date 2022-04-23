@@ -10,10 +10,9 @@ import {
   FaBloggerB,
 } from 'react-icons/fa';
 const { Footer } = Layout
-import './footer.css'
 const footer: FC = () => {
   return (
-    <Footer className='footer'>
+    <Footer style={{ textAlign: 'center', height: '8em' }}>
       <div>
         <Divider type="vertical" >
           <h3 className='title'>Social Networks</h3>
@@ -39,7 +38,6 @@ const footer: FC = () => {
           <h3 className='option'> <FaWpexplorer size={13}/> Explore</h3>
         </Divider>
       </div>
-
     </Footer>
   )
 }
